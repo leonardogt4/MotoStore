@@ -74,7 +74,7 @@ CREATE TABLE IF NOT EXISTS motocicleta(
    
    
 -- -------------TABELA VENDEDOR-----------------
-CREATE TABLE IF NOT EXISTS Vendedor(
+CREATE TABLE IF NOT EXISTS vendedor(
     codVendedor                      INT NOT NULL AUTO_INCREMENT,
     nomeVendedor                     VARCHAR(25) NOT NULL,
    
