@@ -12,81 +12,81 @@ INSERT INTO vendedor(codVendedor, nomeVendedor) values(5, 'JORDANA');
 
 
 
-INSERT INTO Cliente(nomeCliente, telefone, celular, email, cnh, cpf, renda)
+INSERT INTO cliente(nomeCliente, telefone, celular, email, cnh, cpf, renda)
 values('Marcelo', '32333333', '99241523', 'marcelo@hotmail.com', '12345', '074.433.309-11', 2000);
 
- INSERT INTO Cliente(nomeCliente, telefone, celular, email, cnh, cpf, renda)
+ INSERT INTO cliente(nomeCliente, telefone, celular, email, cnh, cpf, renda)
  values('Caio', '32333334', '99241524', 'caio@hotmail.com', 12346, '074.433.309-12', 2000);
  
- INSERT INTO Cliente(nomeCliente, telefone, celular, email, cnh, cpf, renda)
+ INSERT INTO cliente(nomeCliente, telefone, celular, email, cnh, cpf, renda)
  values('Leonardo', '32333335', '99241525', 'leonardo@hotmail.com', 12347, '074.433.309-13', 2000);
  
- INSERT INTO Cliente(nomeCliente, telefone, celular, email, cnh, cpf, renda)
+ INSERT INTO cliente(nomeCliente, telefone, celular, email, cnh, cpf, renda)
  values('Joao', '32333336', '99241526', 'joao@hotmail.com', 12348, '074.433.309-14', 2000);
  
- INSERT INTO Cliente(nomeCliente, telefone, celular, email, cnh, cpf, renda)
+ INSERT INTO cliente(nomeCliente, telefone, celular, email, cnh, cpf, renda)
  values('Maria', '32333337', '99241527', 'maria@hotmail.com', 12349, '074.433.309-15', 2000);
  
 
  
- INSERT INTO Fabricante(codFabricante, nomeFabricante)
+ INSERT INTO fabricante(codFabricante, nomeFabricante)
  values(1, 'SUZUKI');
  
- INSERT INTO Fabricante(codFabricante, nomeFabricante)
+ INSERT INTO fabricante(codFabricante, nomeFabricante)
  values(2, 'HONDA');
  
- INSERT INTO Fabricante(codFabricante, nomeFabricante)
+ INSERT INTO fabricante(codFabricante, nomeFabricante)
  values(3, 'YAMAHA');
  
- INSERT INTO Fabricante(codFabricante, nomeFabricante)
+ INSERT INTO fabricante(codFabricante, nomeFabricante)
  values(4, 'DAFRA');
  
-INSERT INTO Fabricante(codFabricante, nomeFabricante)
+INSERT INTO fabricante(codFabricante, nomeFabricante)
  values(5, 'KAWASAKI');
  
- INSERT INTO Modelo(codModelo, nomeModelo , codFabricante)
+ INSERT INTO modelo(codModelo, nomeModelo , codFabricante)
  values(1, 'BoulevardM800', 1);
  
- INSERT INTO Modelo(codModelo, nomeModelo , codFabricante)
+ INSERT INTO modelo(codModelo, nomeModelo , codFabricante)
  values(2, 'Biz100', 2);
  
- INSERT INTO Modelo(codModelo, nomeModelo , codFabricante)
+ INSERT INTO modelo(codModelo, nomeModelo , codFabricante)
  values(3, 'xtz-125x', 3);
  
- INSERT INTO Modelo(codModelo, nomeModelo , codFabricante)
+ INSERT INTO modelo(codModelo, nomeModelo , codFabricante)
  values(4, 'Citycom300i', 4);
  
- INSERT INTO Modelo(codModelo, nomeModelo , codFabricante)
+ INSERT INTO modelo(codModelo, nomeModelo , codFabricante)
  values(5, 'ZZR600', 5);
  
  
- INSERT INTO Motocicleta(codMotocicleta, placa , cor, km, estilo, categoria , ano, combustivel, codModelo)
+ INSERT INTO motocicleta(codMotocicleta, placa , cor, km, estilo, categoria , ano, combustivel, codModelo)
  values (1, 'MMM1700', 'VERMELHA', 0.0, 'STREET','QUALQUER', 2010, 'alcool', 1 );
  
- INSERT INTO Motocicleta(codMotocicleta, placa , cor, km, estilo, categoria , ano, combustivel, codModelo)
+ INSERT INTO motocicleta(codMotocicleta, placa , cor, km, estilo, categoria , ano, combustivel, codModelo)
  values (2, 'MMM1710', 'AZUL', 0.0, 'STREET','QUALQUER', 2011, 'Gasolina', 2 );
  
- INSERT INTO Motocicleta(codMotocicleta, placa , cor, km, estilo, categoria , ano, combustivel, codModelo)
+ INSERT INTO motocicleta(codMotocicleta, placa , cor, km, estilo, categoria , ano, combustivel, codModelo)
  values (3, 'MMM1750', 'BRANCA', 0.0, 'STREET','QUALQUER', 2012, 'Gasolina', 3 );
  
- INSERT INTO Motocicleta(codMotocicleta, placa , cor, km, estilo, categoria , ano, combustivel, codModelo)
+ INSERT INTO motocicleta(codMotocicleta, placa , cor, km, estilo, categoria , ano, combustivel, codModelo)
  values (4, 'MMM1770', 'VERMELHA', 0.0, 'STREET','QUALQUER', 2013, 'alcool', 4 );
  
- INSERT INTO Motocicleta(codMotocicleta, placa , cor, km, estilo, categoria , ano, combustivel, codModelo)
+ INSERT INTO motocicleta(codMotocicleta, placa , cor, km, estilo, categoria , ano, combustivel, codModelo)
  values (5, 'MMM1755', 'VERMELHA', 0.0, 'STREET','QUALQUER', 2014, 'Gasolina', 5 );
  
 
 
-INSERT INTO Venda(formaPagamento, dataVenda, valor, quantidade, codCliente, codMotocicleta, codVendedor)
+INSERT INTO venda(formaPagamento, dataVenda, valor, quantidade, codCliente, codMotocicleta, codVendedor)
 values ('Dinheiro', '2014-04-10', 2000.00, 2, 1,1,1);
 
-INSERT INTO Venda(formaPagamento, dataVenda, valor, quantidade, codCliente, codMotocicleta, codVendedor)
+INSERT INTO venda(formaPagamento, dataVenda, valor, quantidade, codCliente, codMotocicleta, codVendedor)
 values ('Dinheiro', '2014-04-11', 2000.00, 2, 2,2,2);
 
-INSERT INTO Venda(formaPagamento, dataVenda, valor, quantidade, codCliente, codMotocicleta, codVendedor)
+INSERT INTO venda(formaPagamento, dataVenda, valor, quantidade, codCliente, codMotocicleta, codVendedor)
 values ('Dinheiro', '2014-04-12', 2000.00, 2, 3,3,3);
 
-INSERT INTO Venda(formaPagamento, dataVenda, valor, quantidade, codCliente, codMotocicleta, codVendedor)
+INSERT INTO venda(formaPagamento, dataVenda, valor, quantidade, codCliente, codMotocicleta, codVendedor)
 values ('Dinheiro', '2014-04-13', 2000.00, 2, 4,4,4);
 
 INSERT INTO Venda(formaPagamento, dataVenda, valor, quantidade, codCliente, codMotocicleta, codVendedor)
